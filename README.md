@@ -8,6 +8,8 @@
 
 ## Erklärungen
 
+BEIM CLONEN VOM GITHUB SIND ALLE DATIEN SCHON DRINNE - ORIGINAL UND ANGEPASST
+
 ### **BadUSB**
 - **Funktion**: "Hackt" einen Computer:
   1. Öffnet ein "Ausführen"-Fenster.
@@ -94,7 +96,7 @@
 2. Inhalte anpassen:
    - **ap.config.txt**: WLAN-Name ändern.  
    - **index.html**: Anzeige der Website (HTML/CSS anpassbar).  
-3. Dateien in den Ordner `evil_portal` verschieben.
+3. Dateien in den Ordner `evil_portal` verschieben. oder von Github reinziehen
 
 ### **4. Evil-Portal starten**
 - **Start**: Hotspot starten.  
