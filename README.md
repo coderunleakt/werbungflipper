@@ -1,109 +1,121 @@
-# Werbung mit Flipper
+##Werbung mit Flipper##
+#Berufliches Gymnasium Technik##
+────────────────────────────────────
+Tom Holland
+BGT221
 
-## Berufliches Gymnasium Technik  
-**Tom Holland**  
-**BGT221**  
 
----
 
-## Erklärungen
 
-BEIM CLONEN VOM GITHUB SIND ALLE DATIEN SCHON DRINNE - ORIGINAL UND ANGEPASST
+#Erklärungen#
+BadUsb
+“hackt” einen Computer, es öffnet sich ein “Ausführen” fenster, öffnet Eingabeaufforderung, erstellt editor datei und schreibt text + TBZ Logo
+! NUR WINDOWS FUNKTIONIERT
+Evil-Portal
+erstellt ein Wlan Names “Tbz_guest”, dort kann man sich im TBZ Gast Wlan anmelden. Es gibt kein wirkliches WLAN, die Anmeldedaten werden auf dem Flipper gezeigt. 
+!!! Erinnert die Menschen, keine Echten Daten abzugeben
+#Backups!#
+Erstellt vor jedem Versuch, wo ihr etwas ändert, ein Backup - es kam oft genug vor, wo am Ende sehr aufwendige Projekte wie die Schranke neu gemacht werden mussten.
+Links BadUSB:
 
-### **BadUSB**
-- **Funktion**: "Hackt" einen Computer:
-  1. Öffnet ein "Ausführen"-Fenster.
-  2. Startet die Eingabeaufforderung.
-  3. Erstellt eine Editor-Datei mit Text + TBZ-Logo.
-- **Hinweis**: Funktioniert nur auf **Windows**!
 
-### **Evil-Portal**
-- **Funktion**: Erstellt ein WLAN namens **"TBZ_guest"**. 
-  - Ermöglicht das Einloggen, jedoch ohne echtes WLAN. 
-  - Anmeldedaten werden auf dem Flipper angezeigt.
-- **Hinweis**: Erinnert die Nutzer daran, **keine echten Daten** einzugeben!
+#Links Evil-Portal#
+2.0 evil-portal github: https://github.com/bigbrodude6119/flipper-zero-evil-portal/tree/main?tab=readme-ov-file 
+2.1 Grundlegendes Erklärungsvideo: https://www.youtube.com/watch?v=WPT7qeySf6g&t=337s
+2.2 Assets zum Hinzufügen: https://github.com/bigbrodude6119/flipper-zero-evil-portal/releases
+#Firmware:#
+2.3https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/HowToInstall.md - how to update Firmware
+2.4https://github.com/xMasterX/all-the-plugins#extra-pack - Erklärung wo was drinne ist
+2.5https://github.com/DarkFlippers/unleashed-firmware/releases - unrealised auflistung 
+#Firmware#
+-> sobald updates über QFlipper gemacht werden, setzt sich sich automatisch auf die neuste ORIGINALE Version zurück, hierdurch können Projekte nicht mehr funktionieren
+Es git bestimmte Arten, welche alle Unterschiedliche Zusatzmodule haben: (Link 2.4)
+vore MUSS flipper-z kommen |  f7 (=hardware version) überall gleich
+unlshd-078 = Firmware version | je nachdem, welche Verison ihr haben wollt
+ohne buchstaben: base apps
+c: -
+e: base apps + extra apps
+r: base apps + extra + rgb = NUR MODDED, STAND 04.12.2024 NICHT FÜR DEN SCHULFLIPPER
 
----
 
-## **Wichtige Hinweise**
-- **Backups erstellen**: Vor jedem Versuch ein Backup machen, besonders bei Änderungen. Es kam häufig vor, dass aufwendige Projekte wie die Schranke neu erstellt werden mussten.
+base apps: vorinstalliert vom flipper
+extra apps: zusatzmodule 
 
----
 
-## **Nützliche Links**
+#How to BadUSB#
+siehe firmware - base apps reicht hierfür // oder offizielle firmware update
+siehe Dateien Ordner für speziell TBZ Logo
 
-### **BadUSB**  
-(Siehe Firmware-Abschnitt und Dateien-Ordner für das spezielle TBZ-Logo.)
 
-### **Evil-Portal**
-- [Evil-Portal GitHub](https://github.com/bigbrodude6119/flipper-zero-evil-portal/tree/main?tab=readme-ov-file)
-- [Grundlegendes Erklärungsvideo](https://www.youtube.com/watch?v=WPT7qeySf6g&t=337s)
-- [Assets hinzufügen](https://github.com/bigbrodude6119/flipper-zero-evil-portal/releases)
+#How to Evil-Portal#
 
-### **Firmware**
-1. [Firmware-Installation](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/HowToInstall.md)
-2. [Extra-Plugins](https://github.com/xMasterX/all-the-plugins#extra-pack)
-3. [Firmware-Versionen](https://github.com/DarkFlippers/unleashed-firmware/releases)
 
----
+1. Dev Board an PC anschließen 
+2. Download wifi_dev_board.zip (Link 2.2)
 
-## **Firmware**
-- Updates über **QFlipper** setzen die Firmware automatisch auf die **originale Version** zurück.
-- Unterschiedliche Firmware-Versionen bieten verschiedene Zusatzmodule (siehe Link 2.4).
 
-| Kürzel  | Bedeutung                    |
-|---------|------------------------------|
-| **base apps** | Vorinstallierte Apps.        |
-| **extra apps** | Zusätzliche Module.          |
-| **rgb**        | Zusätzliche RGB-Funktion (nur modded, nicht für Schulflipper). |
 
----
 
-## **Anleitung: BadUSB**
-1. Base Apps oder offizielle Firmware updaten.
-2. Siehe Dateien-Ordner für das spezielle TBZ-Logo.
 
----
 
-## **Anleitung: Evil-Portal**
 
-### **1. Dev Board einrichten**
-1. **Wifi_dev_board.zip** herunterladen (siehe Link 2.2).  
-2. FlipperLab öffnen:
-   - Empfohlen: Chrome/Edge als Administrator.  
-   - **Seriellen Port zulassen**: [Anleitung](https://support.google.com/chrome/answer/12576972?hl=de).
-3. Dateien aus `wifi_dev_board.zip` hinzufügen:
-   - `1000 - EvilPortal.ino.bootloader.bin`
-   - `8000 - EvilPortal.ino.partitions.bin`
-   - `e000 - boot_app0.bin`
-   - `10000 - EvilPortal.ino.bin`
 
-### **2. Flipper vorbereiten**
-1. FlipperLab oder QFlipper öffnen.  
-2. Firmware installieren:
-   - **Download**: `unleashed-evil_portal.fap.zip`  
-   - Datei entpacken und strukturieren:  
-     ```
-     apps/
-       GPIO/
-         evil_portal.fap
-     apps_data/
-       evil_portal/
-     ```
+3. Flipperlab öffnen 
+1. Chrome / Edge am besten 
+   1. Als Administrator
+   2. seriellen port zulassen
+https://support.google.com/chrome/answer/12576972?hl=de 
+b. click connect -> esp32 (flipper wifi board) auswählen
+c. füge jeweilige Dateien aus wifi_dev_board.zip passend hinzu:
+   * 1000 - EvilPortal.ino.bootloader.bin
+   * 8000 - EvilPortal.ino.partitions.bin
+   * e000 - boot_app0.bin
+   * 10000 - EvilPortal.ino.bin
 
-### **3. Dateien anpassen**
-1. `evil_portal_sd_folder.zip` herunterladen.  
-2. Inhalte anpassen:
-   - **ap.config.txt**: WLAN-Name ändern.  
-   - **index.html**: Anzeige der Website (HTML/CSS anpassbar).  
-3. Dateien in den Ordner `evil_portal` verschieben. oder von Github reinziehen
 
-### **4. Evil-Portal starten**
-- **Start**: Hotspot starten.  
-  - Alle eingegebenen Daten werden angezeigt.  
-- **Stop**: Hotspot stoppen.
+d. offentlich done - board entfernen, braucht ihr erstmal nicht mehr
 
----
 
-## **Zusätzliche Hinweise**
-- **Firmware zu alt?** Nicht einfach die neue installieren. Überprüfen, ob der richtige Buchstabe installiert ist.
+4. Flipper an PC anschließen
+   1. QFlipper oder Flipperlab öffnen
+   2. Flipper anschließen
+
+
+   1. download: unleashed-evil_portal.fap.zip
+   2. entpacken und speichert wo ihr wollt
+Ordnerstruktur anlegen: // auf dem Flipper
+apps/
+  GPIO/
+    hier kommt der Download hin: evil:portal.fap
+apps_data/
+  evil_portal/
+    //siehe nächster schritt
+
+
+
+
+
+
+
+
+5. lade evil_portal_sd_folder.zip herunter
+   1. cd evil_portal/
+   2. öffne ap.config.text
+   1. der text der dort steht ist der Name von dem WLAN Hotsopt - anpassbar
+   3. ziehe ap.config.txt in den ordner evil_portal
+
+
+   1. cd evil_portal/
+   2. öffne index.html
+   1. das ist die Website, welche beim Verbinden angezeigt wird - anpassbar mit html und css (müssen in einer klasse sein, kein link dazwischen)
+   3. ziehe index.html in den ordner evil_portal
+
+
+6. ziehe alles ab, gehe über den Flipper in apps/GPIO und öffne evil-portal, 
+start = hotspot starten
+-> im feld werden die sachen angezeigt, welche eingeben werden, nachdem auf anmelden geklickt wurde
+stop = stoppen
+-> alles andere ist tiefergehend und für Einführung in Werbung unteresesant, kann man Sachen wie trolls und wirklich attacken machen
+
+
+=> Wenn Firmware zu alt, nicht einfach die neue installieren, es ist der Falsche Buchstabe installiert
