@@ -1,5 +1,5 @@
-##Werbung mit Flipper
-#Berufliches Gymnasium Technik
+##Werbung mit Flipper##
+#Berufliches Gymnasium Technik##
 ────────────────────────────────────
 Tom Holland
 BGT221
@@ -7,27 +7,27 @@ BGT221
 
 
 
-Erklärungen
+#Erklärungen#
 BadUsb
 “hackt” einen Computer, es öffnet sich ein “Ausführen” fenster, öffnet Eingabeaufforderung, erstellt editor datei und schreibt text + TBZ Logo
 ! NUR WINDOWS FUNKTIONIERT
 Evil-Portal
 erstellt ein Wlan Names “Tbz_guest”, dort kann man sich im TBZ Gast Wlan anmelden. Es gibt kein wirkliches WLAN, die Anmeldedaten werden auf dem Flipper gezeigt. 
 !!! Erinnert die Menschen, keine Echten Daten abzugeben
-Backups!
+#Backups!#
 Erstellt vor jedem Versuch, wo ihr etwas ändert, ein Backup - es kam oft genug vor, wo am Ende sehr aufwendige Projekte wie die Schranke neu gemacht werden mussten.
 Links BadUSB:
 
 
-Links Evil-Portal
+#Links Evil-Portal#
 2.0 evil-portal github: https://github.com/bigbrodude6119/flipper-zero-evil-portal/tree/main?tab=readme-ov-file 
 2.1 Grundlegendes Erklärungsvideo: https://www.youtube.com/watch?v=WPT7qeySf6g&t=337s
 2.2 Assets zum Hinzufügen: https://github.com/bigbrodude6119/flipper-zero-evil-portal/releases
-Firmware:
+#Firmware:#
 2.3https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/HowToInstall.md - how to update Firmware
 2.4https://github.com/xMasterX/all-the-plugins#extra-pack - Erklärung wo was drinne ist
 2.5https://github.com/DarkFlippers/unleashed-firmware/releases - unrealised auflistung 
-Firmware 
+#Firmware#
 -> sobald updates über QFlipper gemacht werden, setzt sich sich automatisch auf die neuste ORIGINALE Version zurück, hierdurch können Projekte nicht mehr funktionieren
 Es git bestimmte Arten, welche alle Unterschiedliche Zusatzmodule haben: (Link 2.4)
 vore MUSS flipper-z kommen |  f7 (=hardware version) überall gleich
@@ -42,12 +42,12 @@ base apps: vorinstalliert vom flipper
 extra apps: zusatzmodule 
 
 
-How to BadUSB
+#How to BadUSB#
 siehe firmware - base apps reicht hierfür // oder offizielle firmware update
 siehe Dateien Ordner für speziell TBZ Logo
 
 
-How to Evil-Portal
+#How to Evil-Portal#
 
 
 1. Dev Board an PC anschließen 
